@@ -1,0 +1,90 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>hospitais</servlet-name>
+    <servlet-class>dev.medkit.server.controller.HospitaisController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>paciente</servlet-name>
+    <servlet-class>dev.medkit.server.controller.PacienteController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>dev.medkit.server.controller.LoginController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>consultas</servlet-name>
+    <servlet-class>dev.medkit.server.controller.ConsultasController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>exames</servlet-name>
+    <servlet-class>dev.medkit.server.controller.ExamesController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>cirurgias</servlet-name>
+    <servlet-class>dev.medkit.server.controller.CirurgiasController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>profissional</servlet-name>
+    <servlet-class>dev.medkit.server.controller.ProfissionalController</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>guias</servlet-name>
+    <servlet-class>dev.medkit.server.controller.GuiasController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>hospitais</servlet-name>
+    <url-pattern>/hospitais</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>paciente</servlet-name>
+    <url-pattern>/paciente</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>consultas</servlet-name>
+    <url-pattern>/consultas</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>exames</servlet-name>
+    <url-pattern>/exames</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>cirurgias</servlet-name>
+    <url-pattern>/cirurgias</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>profissional</servlet-name>
+    <url-pattern>/profissional</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>guias</servlet-name>
+    <url-pattern>/guias</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
+
